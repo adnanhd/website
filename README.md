@@ -7,5 +7,3 @@ Publications
 Projects
 
 Cv
-
-Eyjafjallajoekull
