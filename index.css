@@ -7,6 +7,10 @@
   --CardBorder: #44475A;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--Background);
   margin: 0px;
@@ -18,7 +22,16 @@ body {
   flex-direction: row;
   justify-content: right;
   flex-wrap: wrap;
+  position: fixed;
   background-color: var(--MenuBar);
+}
+
+.right {
+	flex: 80%;
+}
+
+.left {
+	flex: 20%;
 }
 
 .navigation-link {
@@ -43,10 +56,14 @@ body {
 
 .normal-background {
   background-color: var(--Background);
+  display: flex;
+  flex-direction: row;
 }
 
 .deputy-background {
   background-color: var(--DeputyBackground);
+  display: flex;
+  flex-direction: row;
 }
 
 .card {
