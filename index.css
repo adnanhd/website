@@ -1,0 +1,57 @@
+:root {
+  --Background: #272935;
+  --DeputyBackground: #343746;
+  --Accent: #2962FF;
+  --MenuBar: #FFF;
+  --CardBackground: #282A36;
+  --CardBorder: #44475A;
+}
+
+body {
+  background-color: var(--Background);
+  margin: 0px;
+  color: var(--MenuBar);
+}
+
+#navlist {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  flex-wrap: wrap;
+  background-color: var(--MenuBar);
+}
+
+.navigation-link {
+  background-color: var(--MenuBar);
+  border: none;
+  color: var(--Background);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.5s;
+  font-family: 'Noto Sans';
+}
+
+.navigation-link:hover {
+  background-color: var(--Accent);
+  color: var(--MenuBar);
+  transition: 0.5s;
+}
+
+.normal-background {
+  background-color: var(--Background);
+}
+
+.deputy-background {
+  background-color: var(--DeputyBackground);
+}
+
+.card {
+  background-color: var(--CardBackground);
+  border: 2px solid var(--CardBorder);
+  border-radius: 5px;
+  margin: 60px;
+}
